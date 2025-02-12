@@ -90,3 +90,4 @@ class Axes3DExample(ThreeDScene):
         self.play(t.animate.set_value(2*np.pi), run_time=2)
         self.wait(2)
         '''
+        print("dsa")
