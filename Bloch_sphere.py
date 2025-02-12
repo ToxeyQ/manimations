@@ -5,7 +5,7 @@ import numpy as np
 
 class Axes3DExample(ThreeDScene):
     def construct(self):
-        '''
+        
         axes = ThreeDAxes(
             x_range=[-2, 2, 1],  # X-axis from -1 to 1
             y_range=[-2, 2, 1],  # Y-axis from -1 to 1
@@ -14,7 +14,7 @@ class Axes3DExample(ThreeDScene):
             y_length=4,  # Total length of the Y-axis
             z_length=4,  # Total length of the Z-axis
         )
-        '''
+        
         axis_length = 2
         neg_axes = VGroup(
             Line([0, 0, 0], [0, 0, -axis_length], color=WHITE),  # Negative Z
