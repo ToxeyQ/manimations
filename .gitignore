@@ -1,0 +1,7 @@
+/.python-version
+/.venv
+/media
+/pyproject.toml
+/Test_scenes.py
+/uv.lock
+/__pycache__
